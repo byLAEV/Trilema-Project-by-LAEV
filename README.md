@@ -269,6 +269,45 @@ The master repository remains the principal entry point for understanding the pr
 
 ***
 
+# Business Models
+
+## Trilema Institute — Business Infrastructure
+
+**Trilema Institute by LAEV** coordinates the business infrastructure of the Trilema Ecosystem.
+
+The **Business Models** section documents the frameworks through which the project's comics, music, art, collectibles, campaigns and collaborations can participate in a connected economic ecosystem.
+
+The infrastructure includes:
+
+- distributed creation and ecosystem participation
+- partnerships, sponsorships, licensing and distribution
+- campaign participation and redemption models
+- content and collectible models
+- identity and serial systems
+- cryptographic commitment and revelation mechanisms
+- verification and proof-of-revelation concepts
+- campaign specifications and implementation roadmap
+
+### Trilema Commitment & Revelation Economy
+
+A central model explores how information can be committed before revelation, discovered across connected content, verified according to defined rules and associated with benefits or redemption mechanisms.
+
+This creates a reusable framework connecting **content → participation → cryptography → discovery → revelation → verification → benefits → redemption**.
+
+### Documentation
+
+[**Trilema Institute — Business Infrastructure**](trilema-institute/README.md)
+
+[**Business Model Roadmap**](trilema-institute/business-infrastructure/01-trilema-ecosystem/business-model-roadmap.md)
+
+[**Commitment & Revelation Economy**](trilema-institute/business-infrastructure/02-commitment-revelation-economy/commitment-revelation-economy.md)
+
+[**Business Infrastructure Directory**](trilema-institute/business-infrastructure/)
+
+This section will be expanded progressively as the business models are defined and implemented.
+
+***
+
 # Collaboration
 
 The project is being structured to make participation by different professionals possible.
