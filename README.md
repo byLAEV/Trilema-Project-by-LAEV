@@ -327,6 +327,30 @@ Professionals and collaborators interested in the project will be able to use th
 
 ***
 
+# Trilema Records Soundtracks
+
+### Music & Soundtracks of the Trilema Project by LAEV
+
+**Trilema Records Soundtracks** is the soundtrack section of **Trilema Project by LAEV**, dedicated to the music created for and associated with the project's comics, characters, stories, audiovisual works and broader creative universe.
+
+This section will progressively collect soundtrack releases and related musical works produced under **Trilema Records by LAEV**.
+
+## Miseria — byLAEV
+
+[![Miseria Cover](https://raw.githubusercontent.com/byLAEV/Trilema-Project-by-LAEV/refs/heads/main/trilema-records/Miseria%20Cover%2016-9.jpg)](https://tempfile.aiquickdraw.com/r/4d75104c-ff44-4a90-9e03-eeae1fcfc8e8.mp3)
+
+**Miseria — byLAEV**
+
+[▶ Listen to Miseria](https://tempfile.aiquickdraw.com/r/4d75104c-ff44-4a90-9e03-eeae1fcfc8e8.mp3)
+
+**Project:** The Hanbot Trilema  
+**Label:** Trilema Records by LAEV  
+**Format:** Soundtrack / Music  
+**Duration:** 282 seconds  
+**Generation ID:** `4d75104c-ff44-4a90-9e03-eeae1fcfc8e8`
+
+***
+
 # Project Status
 
 **Development stage:** Concept / Project Formation
