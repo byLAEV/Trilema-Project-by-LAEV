@@ -1,0 +1,7 @@
+season_index:
+  project: HT
+  seasons:
+    - id: HT-S01
+      number: 1
+      planned_episodes: 12
+      numbering: "001-012"
