@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comics Setup Creator byLAEV for Trilema Art Studio — English</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--line:#d9dde3;--text:#1f2937;--muted:#6b7280;--accent:#111827;--soft:#eef0f3;--danger:#7f1d1d;--dangerBg:#f3dfe1}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+.wrap{max-width:1280px;margin:0 auto;padding:24px}header{margin-bottom:20px}h1{margin:0 0 6px;font-size:30px;line-height:1.15}h2{font-size:19px;margin:0 0 14px}h3{font-size:15px;margin:18px 0 10px}.subtitle{margin:0;color:var(--muted)}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.badge{display:inline-block;background:var(--soft);border-radius:999px;padding:4px 9px;font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.04)}.full{grid-column:1/-1}
+details.card{padding:0;overflow:hidden}details.card>summary{list-style:none;cursor:pointer;padding:18px;font-weight:750;font-size:18px;background:#fff}details.card>summary::-webkit-details-marker{display:none}details.card>summary:before{content:'▸';display:inline-block;margin-right:8px;transition:.15s}details.card[open]>summary:before{transform:rotate(90deg)}.inside{padding:0 18px 18px}
+label{display:block;font-weight:650;font-size:13px;margin:11px 0 6px}input,select,textarea{width:100%;border:1px solid #cfd4db;border-radius:9px;padding:10px 11px;background:#fff;color:var(--text);font:inherit}textarea{min-height:92px;resize:vertical}input[readonly]{background:#f7f7f8;color:#4b5563}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}.inline{display:flex;align-items:center;gap:10px;margin:8px 0}.inline input{width:auto}.hint{font-size:12px;color:var(--muted);margin-top:5px}
+.list{display:grid;gap:8px;margin-top:8px}.list-row{display:grid;grid-template-columns:1fr auto;gap:8px}.list-row .wide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.wallet-row .wide{grid-template-columns:repeat(3,minmax(0,1fr))}.contact-row .wide{grid-template-columns:repeat(4,minmax(0,1fr))}.agreement-row .wide{grid-template-columns:repeat(3,minmax(0,1fr))}
+button{border:0;border-radius:9px;padding:10px 15px;font:inherit;font-weight:700;cursor:pointer}.primary{background:var(--accent);color:#fff}.secondary{background:#e8eaee;color:#111827}.danger{background:var(--dangerBg);color:var(--danger)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.status{margin-top:10px;color:var(--muted);font-size:13px}.section-note{border:1px dashed var(--line);background:#fafafa;padding:10px;border-radius:9px;color:var(--muted);font-size:12px;margin-top:10px}.warning{border-left:4px solid #a16207;background:#fffbea;color:#854d0e;padding:10px 12px;border-radius:8px;font-size:12px;margin-top:10px}
+.checkgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 12px;margin-top:8px}.check{display:flex;align-items:center;gap:8px;font-size:13px}.check input{width:auto}#output{min-height:620px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;line-height:1.5;white-space:pre-wrap}
+@media(max-width:950px){.grid,.row3{grid-template-columns:1fr}.checkgrid{grid-template-columns:1fr 1fr}.wallet-row .wide,.contact-row .wide,.agreement-row .wide{grid-template-columns:1fr 1fr}}@media(max-width:650px){.wrap{padding:14px}.row,.list-row .wide,.wallet-row .wide,.contact-row .wide,.agreement-row .wide{grid-template-columns:1fr}.checkgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Comics Setup Creator byLAEV for Trilema Art Studio</h1>
+<p class="subtitle">Comic Production Configuration Protocol · local prototype, no server</p>
+<p class="subtitle">English Interface · Same configuration schema and production logic</p>
+<div class="meta"><span class="badge">Offline / Local</span><span class="badge">Configuration-first</span><span class="badge">Version 2.1</span></div>
+</header>
+
+<div class="grid">
+<section class="card">
+<h2>1. Project Setup</h2>
+<div class="row"><div><label for="workId">Work ID</label><input id="workId" value="HT" autocomplete="off"></div><div><label for="version">Version</label><input id="version" value="2.1"></div></div>
+<div class="row"><div><label for="season">Season</label><input id="season" value="01" inputmode="numeric" maxlength="2"></div><div><label for="episode">Episode</label><input id="episode" value="001" inputmode="numeric" maxlength="3"></div></div>
+<label for="status">Status</label><select id="status"><option>draft</option><option>review</option><option>approved</option><option>production</option><option>published</option><option>final</option></select>
+<label for="workName">Work Name</label><input id="workName" value="The Hanbot Trilema">
+<div class="row"><div><label for="seriesName">Series</label><input id="seriesName" value="The Hanbot Trilema"></div><div><label for="studioName">Studio</label><input id="studioName" value="Trilema Art Studio"></div></div>
+<div class="row"><div><label for="publisherName">Label / Publisher</label><input id="publisherName" value="Trilema Records Presents LAEV"></div><div><label for="language">Primary Language</label><input id="language" value="en"></div></div>
+<label for="otherLanguages">Additional Languages</label><input id="otherLanguages" placeholder="es, en, ...">
+<label for="realityMode">Reality Framework</label><select id="realityMode"><option>hybrid</option><option>documented</option><option>fictional</option><option>conceptual</option></select>
+<label for="editorialNote">Editorial Note</label><textarea id="editorialNote"></textarea>
+</section>
+
+<section class="card">
+<h2>2. Identification & Protocol</h2>
+<label for="creationId">Creation ID</label><input id="creationId" readonly>
+<label for="issueId">Issue ID</label><input id="issueId" readonly>
+<div class="row"><div><label for="editionId">Edition ID</label><input id="editionId" placeholder="Optional"></div><div><label for="copyId">Copy ID</label><input id="copyId" placeholder="Optional"></div></div>
+<label for="configClass">Configuration Class</label><select id="configClass"><option>Comic Setup</option><option>Episode Setup</option><option>Season Setup</option><option>Publication Setup</option><option>Promotional Package</option></select>
+<label for="parameterMode">Parameter Mode</label><select id="parameterMode"><option>REQUIRED / OPTIONAL / AUTO / INHERITED / OVERRIDE</option><option>REQUIRED-first</option><option>OPTIONAL-first</option></select>
+<div class="row"><div><label for="previousConfigId">Previous Configuration ID</label><input id="previousConfigId"></div><div><label for="blockNumber">Configuration Block</label><input id="blockNumber"></div></div>
+<div class="row"><div><label for="hash">Hash / Fingerprint</label><input id="hash"></div><div><label for="signature">Signature / Authorization</label><input id="signature"></div></div>
+</section>
+
+<section class="card">
+<h2>3. Participants & Consensus</h2>
+<div class="hint">Real, fictional, collaborative, verification, or project-role participants.</div>
+<div id="participantsList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addParticipant">+ Add Participant</button></div>
+<label class="inline"><input id="consensusEnabled" type="checkbox" checked> Consensus Enabled</label>
+<label for="domains">Domains / Subjects</label><textarea id="domains"></textarea>
+<label for="consensusPolicy">Consensus Policy</label><select id="consensusPolicy"><option>configurable</option><option>documentary-verification</option><option>editorial-review</option><option>none</option></select>
+</section>
+
+<section class="card">
+<h2>4. Custody & Technology</h2>
+<label class="inline"><input id="custodyEnabled" type="checkbox" checked> Custody Enabled</label>
+<div class="row"><div><label for="technology">Technology</label><select id="technology"><option>configurable</option><option>local-only</option></select></div><div><label for="policy">Policy</label><select id="policy"><option>configurable</option><option>local</option></select></div></div>
+<div class="row"><div><label for="sourceStorage">Source Storage</label><select id="sourceStorage"><option>local</option><option>embedded-reference</option><option>external</option></select></div><div><label for="assetStorage">Asset Storage</label><select id="assetStorage"><option>local</option><option>project-folder</option><option>external</option></select></div></div>
+</section>
+
+<section class="card full">
+<h2>5. Comic Structure</h2>
+<div class="row3"><div><label for="totalSections">Sections</label><input id="totalSections" type="number" min="0" value="6"></div><div><label for="totalPages">Pages</label><input id="totalPages" type="number" min="0" value="24"></div><div><label for="pagesPerSheet">Pages per Sheet</label><input id="pagesPerSheet" type="number" min="1" value="2"></div></div>
+<label for="structurePath">Hierarchy</label><input id="structurePath" value="WORK → SERIES → SEASON → EPISODE → SECTION → PAGE → PANEL → ELEMENT">
+<label for="sectionTypes">Section Types</label><textarea id="sectionTypes" placeholder="narrative, introduction, investigation, action, closure..."></textarea>
+<label for="pageTypes">Page Types</label><textarea id="pageTypes" placeholder="narrative, dialogue, action, transition, documentary, splash, credits..."></textarea>
+<label for="panelTypes">Panel Types</label><textarea id="panelTypes" placeholder="standard, close-up, wide, splash, cinematic, document, screen..."></textarea>
+</section>
+
+<details class="card full" open><summary>6. Episode Content & Narrative</summary><div class="inside">
+<label for="title">Episode Title</label><input id="title">
+<label for="description">Description</label><textarea id="description"></textarea>
+<div class="row"><div><label for="genre">Genre</label><input id="genre" value="historical comic / hybrid narrative"></div><div><label for="subgenre">Subgenre</label><input id="subgenre"></div></div>
+<div class="row"><div><label for="tone">Tone</label><input id="tone"></div><div><label for="narrator">Narrator</label><input id="narrator"></div></div>
+<label for="timeline">Timeline</label><textarea id="timeline"></textarea>
+<label class="inline"><input id="documentaryElements" type="checkbox"> Include Documentary Elements</label>
+<label class="inline"><input id="fictionalElements" type="checkbox" checked> Include Fictional / Conceptual Elements</label>
+<label for="realityRules">Reality / Fiction Rules by Scene</label><textarea id="realityRules"></textarea>
+</div></details>
+
+<details class="card"><summary>7. Characters</summary><div class="inside">
+<div class="hint">Reusable at series, season, or episode level.</div><div id="charactersList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addCharacter">+ Add Character</button></div>
+<label for="characterRules">Appearance / Continuity Rules</label><textarea id="characterRules"></textarea>
+</div></details>
+
+<details class="card"><summary>8. Sections, Pages & Panels</summary><div class="inside">
+<label for="sectionPlan">Section Plan</label><textarea id="sectionPlan"></textarea>
+<label for="pagePlan">Page Plan</label><textarea id="pagePlan"></textarea>
+<label for="panelRules">Panel Rules</label><textarea id="panelRules"></textarea>
+<div class="row"><div><label for="pageNumbering">Page Numbering</label><select id="pageNumbering"><option>automatic</option><option>manual</option><option>hidden</option></select></div><div><label for="pageNumberPosition">Page Number Position</label><select id="pageNumberPosition"><option>bottom-center</option><option>bottom-left</option><option>bottom-right</option><option>top-right</option></select></div></div>
+</div></details>
+
+<details class="card"><summary>9. Cover Configuration</summary><div class="inside">
+<div class="row"><div><label for="coverEnabled">Cover</label><select id="coverEnabled"><option>enabled</option><option>disabled</option></select></div><div><label for="coverType">Type</label><select id="coverType"><option>official</option><option>alternative</option><option>season</option><option>episode</option><option>collector</option><option>promotional</option><option>variant</option><option>poster-cover</option></select></div></div>
+<div class="row"><div><label for="coverFormat">Format</label><input id="coverFormat" value="portrait"></div><div><label for="coverRatio">Ratio</label><input id="coverRatio" placeholder="2:3, A4, Letter..."></div></div>
+<label for="coverTitle">Cover Title</label><input id="coverTitle" value="The Hanbot Trilema">
+<label for="coverSubtitle">Subtitle / Claim</label><input id="coverSubtitle">
+<label for="coverCharacters">Visible Characters</label><textarea id="coverCharacters"></textarea>
+<label for="coverElements">Graphic Elements</label><textarea id="coverElements"></textarea>
+<label for="coverCredits">Cover Credits</label><textarea id="coverCredits"></textarea>
+<label for="coverCode">Visible Code / Identifier</label><input id="coverCode">
+</div></details>
+
+<details class="card"><summary>10. Back Cover, Spine & Inside Covers</summary><div class="inside">
+<label for="backSummary">Back Cover Synopsis</label><textarea id="backSummary"></textarea>
+<label for="backElements">Back Cover Elements</label><textarea id="backElements"></textarea>
+<div class="row"><div><label for="spineEnabled">Spine</label><select id="spineEnabled"><option>enabled</option><option>disabled</option></select></div><div><label for="spineText">Spine Text</label><input id="spineText"></div></div>
+<label for="insideFront">Inside Front Cover</label><textarea id="insideFront"></textarea>
+<label for="insideBack">Inside Back Cover</label><textarea id="insideBack"></textarea>
+</div></details>
+
+<details class="card"><summary>11. Sheet / Print Configuration</summary><div class="inside">
+<div class="row3"><div><label for="sheetCount">Number of Sheets</label><input id="sheetCount" type="number" min="0" value="12"></div><div><label for="printMode">Printing</label><select id="printMode"><option>duplex</option><option>simplex</option></select></div><div><label for="imposition">Imposition</label><select id="imposition"><option>automatic</option><option>manual</option></select></div></div>
+<div class="row"><div><label for="paperFormat">Physical Format</label><input id="paperFormat" value="A4"></div><div><label for="binding">Binding</label><input id="binding" placeholder="saddle stitch, perfect binding, etc."></div></div>
+<div class="row3"><div><label for="bleed">Bleed</label><input id="bleed" value="3 mm"></div><div><label for="safeArea">Safe Area</label><input id="safeArea" value="5 mm"></div><div><label for="cutMarks">Crop Marks</label><select id="cutMarks"><option>enabled</option><option>disabled</option></select></div></div>
+<label for="sheetOrder">Imposition / Signature Order</label><textarea id="sheetOrder"></textarea>
+</div></details>
+
+<details class="card"><summary>12. Art Direction</summary><div class="inside">
+<div class="row"><div><label for="artStyle">Style</label><input id="artStyle" value="comic editorial"></div><div><label for="artColor">Color</label><select id="artColor"><option>full-color</option><option>black-and-white</option><option>monochrome</option><option>limited-palette</option></select></div></div>
+<div class="row"><div><label for="lineStyle">Line / Ink</label><input id="lineStyle"></div><div><label for="lighting">Lighting</label><input id="lighting"></div></div>
+<div class="row"><div><label for="contrast">Contrast</label><input id="contrast"></div><div><label for="composition">Composition</label><input id="composition"></div></div>
+<label for="visualReferences">Visual References</label><textarea id="visualReferences"></textarea>
+<label for="consistencyRules">Consistency Rules</label><textarea id="consistencyRules"></textarea>
+</div></details>
+
+<details class="card"><summary>13. Branding, Credits & Sources</summary><div class="inside">
+<label for="brands">Brands / Labels</label><textarea id="brands"></textarea>
+<label for="logos">Logos / Signatures</label><textarea id="logos"></textarea>
+<label for="brandPhrases">Identity Phrases</label><textarea id="brandPhrases"></textarea>
+<div class="row"><div><label for="mainUrl">Main URL</label><input id="mainUrl"></div><div><label for="githubUrl">GitHub</label><input id="githubUrl" value="github.com/byLAEV"></div></div>
+<label for="verificationLabel">Verifiers / Reference</label><input id="verificationLabel" value="trilema.com + github.com/byLAEV">
+<label for="credits">Credits</label><textarea id="credits"></textarea>
+<div id="sourcesList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addSource">+ Add Source</button></div>
+<label for="sourceRules">Provenance Rules</label><textarea id="sourceRules"></textarea>
+</div></details>
+
+<details class="card"><summary>14. Marketing & Promotion</summary><div class="inside">
+<label for="marketingGoal">Goal</label><textarea id="marketingGoal"></textarea>
+<div class="checkgrid"><label class="check"><input id="assetTrailer" type="checkbox"> Trailer</label><label class="check"><input id="assetTeaser" type="checkbox" checked> Teaser</label><label class="check"><input id="assetPoster" type="checkbox" checked> Poster</label><label class="check"><input id="assetBanner" type="checkbox" checked> Banner</label><label class="check"><input id="assetSocial" type="checkbox" checked> Social Card</label><label class="check"><input id="assetPress" type="checkbox"> Press Kit</label><label class="check"><input id="assetMedia" type="checkbox"> Media Kit</label><label class="check"><input id="assetLaunch" type="checkbox"> Launch Card</label><label class="check"><input id="assetQuote" type="checkbox"> Quote Card</label></div>
+<label for="campaignCopy">Promotional Copy</label><textarea id="campaignCopy"></textarea><label for="campaignChannels">Channels</label><textarea id="campaignChannels"></textarea>
+</div></details>
+
+<details class="card"><summary>15. Poster Configuration</summary><div class="inside">
+<div class="row3"><div><label for="posterType">Type</label><select id="posterType"><option>episode</option><option>season</option><option>character</option><option>teaser</option><option>release</option><option>limited-edition</option><option>event</option></select></div><div><label for="posterFormat">Format</label><input id="posterFormat" value="A2"></div><div><label for="posterOrientation">Orientation</label><select id="posterOrientation"><option>portrait</option><option>landscape</option></select></div></div>
+<label for="posterCharacters">Character / Focus</label><textarea id="posterCharacters"></textarea><label for="posterCopy">Copy</label><textarea id="posterCopy"></textarea><label for="posterBranding">Branding / QR / URL</label><textarea id="posterBranding"></textarea>
+</div></details>
+
+<details class="card"><summary>16. Social Media Configuration</summary><div class="inside">
+<div class="checkgrid"><label class="check"><input id="socialX" type="checkbox" checked> X / Twitter</label><label class="check"><input id="socialInstagram" type="checkbox" checked> Instagram</label><label class="check"><input id="socialYouTube" type="checkbox"> YouTube</label><label class="check"><input id="socialFacebook" type="checkbox"> Facebook</label><label class="check"><input id="socialWebsite" type="checkbox" checked> Website</label></div>
+<label for="socialFormats">Formats</label><textarea id="socialFormats"></textarea><label for="socialCopy">Copy / Captions</label><textarea id="socialCopy"></textarea><label for="hashtags">Hashtags / Keywords</label><textarea id="hashtags"></textarea>
+</div></details>
+
+<details class="card"><summary>17. Merchandising</summary><div class="inside">
+<div class="checkgrid"><label class="check"><input id="merchShirt" type="checkbox"> T-shirt</label><label class="check"><input id="merchSticker" type="checkbox"> Sticker</label><label class="check"><input id="merchPostcard" type="checkbox"> Postcard</label><label class="check"><input id="merchPrint" type="checkbox"> Art Print</label><label class="check"><input id="merchCard" type="checkbox"> Trading Card</label><label class="check"><input id="merchBadge" type="checkbox"> Badge</label><label class="check"><input id="merchCollectible" type="checkbox"> Collectible</label><label class="check"><input id="merchDigital" type="checkbox"> Digital Asset</label></div>
+<label for="merchRules">Rules / Specifications</label><textarea id="merchRules"></textarea>
+</div></details>
+
+<details class="card"><summary>18. Publication & Export</summary><div class="inside">
+<div class="checkgrid"><label class="check"><input id="pubComic" type="checkbox" checked> Comic</label><label class="check"><input id="pubDigital" type="checkbox" checked> Digital Comic</label><label class="check"><input id="pubPrint" type="checkbox"> Print Comic</label><label class="check"><input id="pubPoster" type="checkbox" checked> Poster</label><label class="check"><input id="pubPromotional" type="checkbox" checked> Promotional Pack</label><label class="check"><input id="pubSocial" type="checkbox" checked> Social Pack</label><label class="check"><input id="pubPress" type="checkbox"> Press Kit</label><label class="check"><input id="pubCollector" type="checkbox"> Collector Edition</label><label class="check"><input id="pubComplete" type="checkbox"> Complete Package</label></div>
+<label for="publicationNotes">Publication Notes</label><textarea id="publicationNotes"></textarea>
+<div class="checkgrid"><label class="check"><input id="expHtml" type="checkbox" checked> HTML</label><label class="check"><input id="expPdf" type="checkbox" checked> PDF</label><label class="check"><input id="expImages" type="checkbox" checked> Images</label><label class="check"><input id="expZip" type="checkbox"> ZIP Production</label><label class="check"><input id="expPrint" type="checkbox"> Print Package</label><label class="check"><input id="expWeb" type="checkbox"> Web Package</label><label class="check"><input id="expSocial" type="checkbox"> Social Package</label><label class="check"><input id="expSource" type="checkbox" checked> Source Configuration</label></div>
+<div class="row"><div><label for="archivePath">Archive Path / Identifier</label><input id="archivePath"></div><div><label for="archivePolicy">Archive Policy</label><select id="archivePolicy"><option>versioned</option><option>append-only</option><option>manual</option></select></div></div>
+</div></details>
+
+<details class="card"><summary>19. Versioning / Configuration Chain</summary><div class="inside">
+<div class="row3"><div><label for="revision">Revision</label><input id="revision" value="0"></div><div><label for="configTimestamp">Timestamp</label><input id="configTimestamp" readonly></div><div><label for="parentConfiguration">Parent Configuration</label><input id="parentConfiguration"></div></div>
+<label for="changeLog">Change Log</label><textarea id="changeLog"></textarea>
+</div></details>
+
+<details class="card full" open><summary>20. Legal Agreements</summary><div class="inside">
+<div class="section-note">Store agreement identity, a legal/notarial book or registry identifier, links to digital images, and the contractual text associated with the record.</div>
+<div id="agreementsList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addAgreement">+ Add Legal Agreement</button></div>
+<div class="warning">This section is a document/configuration register. It does not independently authenticate a legal instrument or certify a notarial record.</div>
+</div></details>
+
+<details class="card full"><summary>21. Contacts & References</summary><div class="inside">
+<div class="section-note">Use this section for project contacts, institutional references, collaborators, sources, URLs, or other points of contact.</div>
+<div id="contactsList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addContact">+ Add Contact / Reference</button></div>
+</div></details>
+
+<details class="card full"><summary>22. Associated Wallets</summary><div class="inside">
+<div class="section-note">Associate a person or named entity with a Bitcoin address and/or an Ethereum address. Addresses are stored as plain configuration data.</div>
+<div id="walletsList" class="list"></div><div class="actions"><button class="secondary" type="button" id="addWallet">+ Add Associated Wallet</button></div>
+<div class="warning">The configurator does not verify ownership or control of a wallet address. Use only addresses that are intended to be recorded in the project.</div>
+</div></details>
+
+<details class="card full"><summary>23. Additional Notes</summary><div class="inside">
+<label for="additionalNotes">Additional Notes</label><textarea id="additionalNotes" placeholder="Anything that does not fit another configuration section..."></textarea>
+<label for="internalNotes">Internal / Production Notes</label><textarea id="internalNotes"></textarea>
+<label for="reviewNotes">Review Notes</label><textarea id="reviewNotes"></textarea>
+</div></details>
+
+<section class="card full"><h2>24. Generate</h2>
+<div class="actions"><button class="primary" type="button" id="generateBtn">Generate Configuration Document</button><button class="secondary" type="button" id="jsonBtn">Generate JSON</button><button class="secondary" type="button" id="copyBtn">Copy Output</button><button class="secondary" type="button" id="downloadBtn">Download Configuration</button><button class="danger" type="button" id="clearBtn">Clear Output</button></div>
+<div class="status" id="status">Ready. Everything runs locally on this page.</div></section>
+
+<section class="card full"><h2>Generated Document / Configuration</h2><textarea id="output" spellcheck="false" placeholder="The generated document or JSON will appear here..."></textarea></section>
+</div>
+</div>
+
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+function pad(v,n){return String(v||'').replace(/\D/g,'').padStart(n,'0').slice(-n)}
+function val(id){return $(id).value.trim()}
+function lines(id){return $(id).value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean)}
+function bool(id){return $(id).checked}
+function refreshIds(){const work=val('workId')||'HT',s=pad(val('season'),2),e=pad(val('episode'),3),id=`${work}-S${s}-E${e}`;$('creationId').value=id;$('issueId').value=id;$('configTimestamp').value=new Date().toISOString()}
+function addRow(containerId,fields,values={},rowClass=''){const row=document.createElement('div');row.className='list-row '+rowClass;const wide=document.createElement('div');wide.className='wide';fields.forEach((f,i)=>{const input=document.createElement('input');input.type=f.type||'text';input.placeholder=f.placeholder;input.value=values[f.name]||'';input.dataset.field=f.name;wide.appendChild(input)});const rm=document.createElement('button');rm.type='button';rm.className='danger';rm.textContent='Remove';rm.onclick=()=>row.remove();row.append(wide,rm);$(containerId).appendChild(row)}
+function addParticipant(v={}){addRow('participantsList',[{name:'name',placeholder:'Participant name / identity'},{name:'role',placeholder:'Role / type'}],v)}
+function addCharacter(v={}){addRow('charactersList',[{name:'name',placeholder:'Character name'},{name:'role',placeholder:'Role / type (hero, villain, real, fictional...)'}],v)}
+function addSource(v={}){addRow('sourcesList',[{name:'source',placeholder:'Source / document / URL'},{name:'scope',placeholder:'Scope / claim / scene / page'}],v)}
+function addAgreement(v={}){addRow('agreementsList',[{name:'identity',placeholder:'Agreement identity'},{name:'identifier',placeholder:'Identifier / notarial book / registry'},{name:'image_links',placeholder:'Digital image link(s)'}],v,'agreement-row');const row=[...$('agreementsList').children].at(-1);const text=document.createElement('textarea');text.placeholder='Contractual text';text.dataset.field='contractual_text';text.style.gridColumn='1 / -1';row.querySelector('.wide').appendChild(text)}
+function addContact(v={}){addRow('contactsList',[{name:'type',placeholder:'Type (contact / reference / institution)'},{name:'name',placeholder:'Name'},{name:'organization',placeholder:'Organization'},{name:'email_or_url',placeholder:'Email / URL'}],v,'contact-row');const row=[...$('contactsList').children].at(-1);const text=document.createElement('textarea');text.placeholder='Phone / address / notes';text.dataset.field='notes';text.style.gridColumn='1 / -1';row.querySelector('.wide').appendChild(text)}
+function addWallet(v={}){addRow('walletsList',[{name:'name',placeholder:'Person / named entity'},{name:'bitcoin_address',placeholder:'Bitcoin address'},{name:'ethereum_address',placeholder:'Ethereum address'}],v,'wallet-row');const row=[...$('walletsList').children].at(-1);const text=document.createElement('input');text.placeholder='Wallet label / role / notes';text.dataset.field='notes';row.querySelector('.wide').appendChild(text)}
+function listData(id){return [...$(id).querySelectorAll('.list-row')].map(row=>Object.fromEntries([...row.querySelectorAll('[data-field]')].map(x=>[x.dataset.field,x.value.trim()]))).filter(o=>Object.values(o).some(Boolean))}
+function checks(ids){return ids.filter(id=>$(id).checked).map(id=>id.replace(/^(asset|pub|exp|social|merch)/,''))}
+function getConfig(){refreshIds();return{
+ schema:'comic-production-configuration',schema_version:'2.1',
+ project:{work_id:val('workId')||'HT',work_name:val('workName'),series:val('seriesName'),season:pad(val('season'),2),episode:pad(val('episode'),3),version:val('version')||'2.1',status:val('status'),studio:val('studioName'),publisher:val('publisherName'),language:val('language'),additional_languages:lines('otherLanguages'),reality_mode:val('realityMode'),editorial_note:val('editorialNote')},
+ identification:{creation_id:val('creationId'),issue_id:val('issueId'),edition_id:val('editionId')||null,copy_id:val('copyId')||null,config_class:val('configClass'),parameter_mode:val('parameterMode'),previous_configuration_id:val('previousConfigId')||null,configuration_block:val('blockNumber')||null,hash:val('hash')||null,signature:val('signature')||null},
+ participants:{items:listData('participantsList'),consensus_enabled:bool('consensusEnabled'),domains:lines('domains'),policy:val('consensusPolicy')},
+ custody:{enabled:bool('custodyEnabled'),technology:val('technology'),policy:val('policy'),source_storage:val('sourceStorage'),asset_storage:val('assetStorage')},
+ structure:{total_sections:Number(val('totalSections')||0),total_pages:Number(val('totalPages')||0),pages_per_sheet:Number(val('pagesPerSheet')||1),hierarchy:val('structurePath'),section_types:lines('sectionTypes'),page_types:lines('pageTypes'),panel_types:lines('panelTypes')},
+ episode_content:{title:val('title'),description:val('description'),genre:val('genre'),subgenre:val('subgenre'),tone:val('tone'),narrator:val('narrator'),timeline:val('timeline'),documentary_elements:bool('documentaryElements'),fictional_elements:bool('fictionalElements'),reality_rules:lines('realityRules')},
+ characters:{items:listData('charactersList'),continuity_rules:val('characterRules')},
+ page_panel_plan:{section_plan:val('sectionPlan'),page_plan:val('pagePlan'),panel_rules:val('panelRules'),page_numbering:val('pageNumbering'),page_number_position:val('pageNumberPosition')},
+ cover:{enabled:val('coverEnabled'),type:val('coverType'),format:val('coverFormat'),ratio:val('coverRatio'),title:val('coverTitle'),subtitle:val('coverSubtitle'),characters:lines('coverCharacters'),graphic_elements:lines('coverElements'),credits:val('coverCredits'),visible_code:val('coverCode')},
+ back_cover:{summary:val('backSummary'),elements:lines('backElements')},spine:{enabled:val('spineEnabled'),text:val('spineText')},inside_covers:{front:val('insideFront'),back:val('insideBack')},
+ print:{sheet_count:Number(val('sheetCount')||0),pages_per_sheet:Number(val('pagesPerSheet')||1),mode:val('printMode'),format:val('paperFormat'),imposition:val('imposition'),binding:val('binding'),bleed:val('bleed'),safe_area:val('safeArea'),crop_marks:val('cutMarks'),sheet_order:val('sheetOrder')},
+ art_direction:{style:val('artStyle'),color:val('artColor'),line_style:val('lineStyle'),lighting:val('lighting'),contrast:val('contrast'),composition:val('composition'),visual_references:lines('visualReferences'),consistency_rules:lines('consistencyRules')},
+ branding:{brands:lines('brands'),logos:lines('logos'),identity_phrases:lines('brandPhrases'),main_url:val('mainUrl'),github:val('githubUrl'),verification_label:val('verificationLabel')},
+ credits_sources:{credits:val('credits'),sources:listData('sourcesList'),provenance_rules:val('sourceRules')},
+ marketing:{goal:val('marketingGoal'),assets:checks(['assetTrailer','assetTeaser','assetPoster','assetBanner','assetSocial','assetPress','assetMedia','assetLaunch','assetQuote']),copy:val('campaignCopy'),channels:lines('campaignChannels')},
+ poster:{type:val('posterType'),format:val('posterFormat'),orientation:val('posterOrientation'),focus:lines('posterCharacters'),copy:val('posterCopy'),branding:val('posterBranding')},
+ social:{channels:checks(['socialX','socialInstagram','socialYouTube','socialFacebook','socialWebsite']),formats:lines('socialFormats'),copy:val('socialCopy'),hashtags:lines('hashtags')},
+ merchandising:{items:checks(['merchShirt','merchSticker','merchPostcard','merchPrint','merchCard','merchBadge','merchCollectible','merchDigital']),rules:val('merchRules')},
+ publication:{outputs:checks(['pubComic','pubDigital','pubPrint','pubPoster','pubPromotional','pubSocial','pubPress','pubCollector','pubComplete']),notes:val('publicationNotes'),export_formats:checks(['expHtml','expPdf','expImages','expZip','expPrint','expWeb','expSocial','expSource']),archive_path:val('archivePath'),archive_policy:val('archivePolicy')},
+ versioning:{revision:val('revision'),timestamp:val('configTimestamp'),parent_configuration:val('parentConfiguration'),change_log:val('changeLog')},
+ legal_agreements:listData('agreementsList'),contacts_and_references:listData('contactsList'),associated_wallets:listData('walletsList'),additional_notes:{additional:val('additionalNotes'),internal:val('internalNotes'),review:val('reviewNotes')}
+}}
+function block(obj,indent=0){const s=' '.repeat(indent),out=[];for(const[k,v]of Object.entries(obj)){if(Array.isArray(v)){out.push(`${s}${k}:`);if(!v.length)out.push(`${s}  []`);else v.forEach(x=>out.push(`${s}  - ${typeof x==='object'?JSON.stringify(x):JSON.stringify(x)}`))}else if(v&&typeof v==='object'){out.push(`${s}${k}:`);out.push(block(v,indent+2))}else out.push(`${s}${k}: ${v===null?'null':typeof v==='string'?JSON.stringify(v):v}`)}return out.join('\n')}
+function generate(){const c=getConfig();$('output').value=`COMICS SETUP CREATOR BYLAEV FOR TRILEMA ART STUDIO\nCOMIC PRODUCTION CONFIGURATION PROTOCOL\n\n${block(c)}`;$('status').textContent='Configuration document generated locally.'}
+function generateJSON(){$('output').value=JSON.stringify(getConfig(),null,2);$('status').textContent='Configuration JSON generated locally.'}
+async function copyOutput(){if(!$('output').value.trim())generate();try{if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText($('output').value);else{$('output').focus();$('output').select();document.execCommand('copy');window.getSelection()?.removeAllRanges()}$('status').textContent='Output copied to clipboard.'}catch(e){$('output').focus();$('output').select();$('status').textContent='Output selected for manual copy.'}}
+function downloadConfig(){if(!$('output').value.trim())generateJSON();const blob=new Blob([$('output').value],{type:'application/json;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${$('creationId').value||'comic-setup'}-configuration.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),0);$('status').textContent='Configuration file downloaded.'}
+$('addParticipant').onclick=()=>addParticipant();$('addCharacter').onclick=()=>addCharacter();$('addSource').onclick=()=>addSource();$('addAgreement').onclick=()=>addAgreement();$('addContact').onclick=()=>addContact();$('addWallet').onclick=()=>addWallet();$('generateBtn').onclick=generate;$('jsonBtn').onclick=generateJSON;$('copyBtn').onclick=copyOutput;$('downloadBtn').onclick=downloadConfig;$('clearBtn').onclick=()=>{$('output').value='';$('status').textContent='Output cleared.'};['workId','season','episode'].forEach(id=>$(id).addEventListener('input',refreshIds));refreshIds();addParticipant();addCharacter();addSource();addAgreement();addContact();addWallet();
+</script>
+</body>
+</html>
