@@ -384,3 +384,154 @@ References to Trilema.com, its community, blockchain concepts or other external 
 **Trilema Project by LAEV**
 
 The central repository for the project's vision, structure, creative works, professional ecosystem and future development.
+
+
+***
+
+# Marías Trilema — New Soundtrack Entry
+
+**Title:** *Marías Trilema*  
+**Artist / Creative identity:** LAEV / byLAEV  
+**Music project:** HL Music  
+**Label / soundtrack context:** Trilema Records by LAEV — Soundtrack  
+**YouTube:** https://youtu.be/UbzfOfTsTnU?si=0u2hKlMdoJn_fcz1  
+**Recorded / documented:** 2026-10-03 19:18:00 -06:00 (America/Costa_Rica) | ISO 8601: 2026-10-03T19:18:00-06:00
+
+## Timestamped personal status statement
+
+At the time of this repository update, I am documenting my personal status from my residence in **Las Tres Marías, San Ramón de Alajuela, Costa Rica**. I state that I am alone at home at this moment.
+
+The location description I am providing for this personal record is the residence I identify as being approximately **400 meters south of the Social Security branch in San Ramón**, on the right-hand side, recognizable by the columns with an inverted-arch design.
+
+This is a personal contemporaneous statement and timestamped record. It should be understood as my own account of where I am and what I am experiencing, not as an independently verified claim about other people or events.
+
+I am documenting this because I am frustrated by statements and stories that I believe do not accurately represent my circumstances. I want the repository to preserve my own account clearly, with a time reference and without presenting my personal allegations as independently established facts.
+
+## Song context
+
+*Marías Trilema* is presented as a personal and artistic work combining autobiographical material, family conflict, identity, music, architecture/design, GitHub, blockchain culture, decentralized systems and the broader **Trilema Project by LAEV** universe.
+
+The lyrics use first-person artistic expression. References to family members, workplaces, personal events and other people are presented as the artist's perspective and memories within the work.
+
+## Lyrics
+
+[INTRO — AI, spoken]  
+Marías Trilema...  
+Family, system, contradiction.  
+LAEV.  
+No label. No permission.  
+HL Music. Blockchain OG's.
+
+[PRE-CHORUS — LAEV]  
+Me dicen gordo, gordito, como cualquier man,  
+150 kilos, bones and body, understand.  
+“Inteligente” los que no dicen retrasado,  
+I know my mind, no necesito ser explicado.  
+No soy solo Records, no soy personaje,  
+I'm LAEV, cabrón, código y lenguaje.  
+Trilema Project by LAEV, that's my universe,  
+Hanbot Trilema in the system, every bar a verse.
+
+[CHORUS — LAEV + HANNAH]  
+(LAEV)  
+I am not your label, no soy lo que ustedes ven,  
+soy lo que construyo when nobody says amen.  
+(HANNAH)  
+You judge the skin, but you don't know the soul,  
+cada cicatriz turned the damage into control.  
+(LAEV)  
+Blockchain OG, Bitcoiners Cartel,  
+The Trilema, HL Music — remember the name.  
+(HANNAH)  
+No necesito approval, no necesito explicación,  
+same blood, broken life, different protocol.
+
+[VERSE 1 — LAEV]  
+Mi hermano menor se avergüenza de mí,  
+my middle brother resentful, always against me.  
+Years without seeing them, that distance got real,  
+cuarenta K, nobody wants to reveal.
+
+Me dieron la espalda, I walked away,  
+por mi madre llegó: “don't come my way.”  
+“Maldito piedrero, no te quiero en mi vida,”  
+words from my blood, but I survived the herida.
+
+Sí, me drogo, hago música y diseño,  
+GitHub through the night, building mi sueño.  
+@byLAEV, cabrones, that's the code,  
+I carry contradictions on my own road.
+
+[BRIDGE — HANNAH]  
+No sé si la sangre significa hogar,  
+sometimes family teaches you how to depart.  
+No borro el pain, tampoco lo que pasó,  
+miro las heridas... y pregunto quién quedó.
+
+[VERSE 2 — LAEV]  
+Global Construcciones, empleado barato,  
+hasta el que barría ganaba el doble en el contrato.  
+Me fui, I had to leave, ya no importaba,  
+copiabas mi arquitectura, aunque lo negaras.
+
+Vi a mi madre con miedo mientras dormían,  
+yo la consolaba aunque mis manos temblaban.  
+Father drunk, silence filling every room,  
+“qué inteligente eres, Lerry Alexander” — boom.
+
+9 de octubre del 2020, I remember that date,  
+ojos a mi ex padre aberration — eyes hot wtf.  
+Pusiste el licor por encima de las sustancias,  
+I learned that family can create distancias.
+
+[PRE-CHORUS — LAEV]  
+I turned pain into code, sound and design,  
+repos on GitHub, working through the night.  
+No soy perfecto, I never claimed I was,  
+built from the ruins — that's what I does.
+
+[CHORUS — LAEV + HANNAH]  
+I am not your label, no soy lo que ustedes ven,  
+soy lo que construyo when nobody says amen.  
+You judge the skin, but you don't know the soul,  
+cada cicatriz turned the damage into control.  
+Blockchain OG, Bitcoiners Cartel,  
+The Trilema, HL Music — remember the name.  
+No necesito approval, no necesito explicación,  
+same blood, broken life, different protocol.
+
+[PRE-OUTRO — LAEV]  
+¿Creen que me importa el UTXO?  
+I respect the design, but that's not my whole.  
+Proof of function, consensus, preference,  
+voting configuration, Lightning settlement.  
+Core nodes running through the night,  
+Bitcoin culture, decentralization in sight.
+
+Respeto a Satoshi, respeto el protocolo,  
+cypherpunk history, pero diseño mi modo.  
+Genesis Cash, I know where it began,  
+multi-currency settlement — electronic man.
+
+[CLIMAX — LAEV + HANNAH]  
+(LAEV)  
+Soy fundador del Bitcoiners Cartel,  
+The Blockchain OG's — remember the name.  
+(HANNAH)  
+Respect their world, but respect his too,  
+different protocols, different ways to move.  
+(LAEV)  
+No envidio lo que no me supera, that's my code,  
+Trilema Records Soundtracks, carrying the load.  
+(HANNAH)  
+Build your own system, find your own way.  
+(LAEV)  
+I'm LAEV — scars, code, still creating every day.
+
+[OUTRO — AI, spoken]  
+Marías Trilema.  
+Different systems.  
+Same blood.  
+No permission required.  
+HL Music.  
+The Blockchain OG's.
